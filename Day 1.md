@@ -18,5 +18,5 @@
 ![AWS 2 - Copy](https://user-images.githubusercontent.com/49730521/83356104-68a56580-a381-11ea-8eca-b3b1ebcc0581.PNG)
 
 
-
+### How do I create and activate a new AWS account? :[Source](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 
