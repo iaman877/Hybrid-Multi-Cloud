@@ -1,10 +1,13 @@
-* IAM which is a service by aws & keystone for OpenStack for multi-user creation.
-* now we should use either cli or some #automatic code through a program 
-* how to connect an instance of type without amazon AMI 2.
-* How to launch instances and retrieve complete information through aws command from AWS CLI version 2
-* learn about JSON.
 
-
-
-
-
+- [x] there are 3 ways to use AWS
+- webUI
+- CLI
+- Programming Language
+- [x]  leart about the tenants landlord concept binding in relationship with cloud computing world
+- [x] Multi-tenancy structure
+- [x] the CAAS compute as a service which gives us the service for computing unit that's ec2 for aws  &  nova for openstack.
+- [x] 3 types of storage - object, file, block type
+- [x] now the service which gives the storage is SAAS storage as service that's ebs for awa , cinder for openstack
+- [x]  NAAS network as service that's vpc for aws , neutron for openstack.
+- [x] now for networking between os/instances the service is network interface service that's eni for aws & glance for openstack.
+- [x] practically launched instances of linux os on aws.
