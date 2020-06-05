@@ -1,5 +1,5 @@
 
-# aws CloudTrail | S3 | EBS Volume 
+# AWS CloudTrail | S3 | EBS Volume 
 
 ## EBS Volume 
 - creating, attaching to OS for persistent storage so that in case if we terminate our OS, our data will be safe in a volume.
@@ -9,7 +9,7 @@
 
 ### Storage
 
--[x] Block storage 
+- [x] Block storage 
 - need to create partition for OS installation
 - IN aws block storage is provide by  *EBS*
 - for installing OS we need Ephemeral block storage (root storage in aws)
@@ -19,7 +19,7 @@
 - only to store files. example GDrive, Dropbox
 - aws provide object storage by S3 (Simple Storage Service) && Swift in Openstack.
 
--[x] Security Group
+- [x] Security Group
 - firewall
 - no inbound/ingress by default
 
