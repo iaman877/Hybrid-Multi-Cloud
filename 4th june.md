@@ -19,12 +19,16 @@ today's Summary
 - attach CDN to EC2, it will automatically manage fault tolerance.
 
 ## Implementation -
+
 (1) Networking & content delivery  -> cloudfront 
-(2)  step (1) create distribution 
+
+(2)  step(1) create distribution 
      *  web distribution for static content (choose this)
      * RTMP for online streaming 
-(3) Step (2) 
+     
+(3) Step(2) 
       * fill command as per your need.
+      
 - [x] with the help of bucket policy, we can apply more security to our web service 
 - it also provide redirect to https service 
 - have a look on what is blacklist & blocklist for country level.
