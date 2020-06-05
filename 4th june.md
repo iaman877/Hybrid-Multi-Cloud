@@ -22,14 +22,14 @@ today's Summary
 
 (1) Networking & content delivery  -> cloudfront 
 
-(2)  step(1) create distribution 
+(2)  1st step - create distribution 
      *  web distribution for static content (choose this)
      * RTMP for online streaming 
      
-(3) Step(2) 
+(3) 2nd step   
       * fill command as per your need.
       
 - [x] with the help of bucket policy, we can apply more security to our web service 
 - it also provide redirect to https service 
-- have a look on what is blacklist & blocklist for country level.
+- have a look on what is blacklist & whitelist for country level.
      
