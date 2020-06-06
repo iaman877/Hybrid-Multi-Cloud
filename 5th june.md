@@ -30,3 +30,4 @@ AWS Global Accelerator is a service that improves the availability and performan
 - [x] For this AWS Launched a New service called Global Accelerator:
      *  By using this service we can use the private network of aws that are used by there edge locations which are very fast,consistent and reliable too ,to access the content from the origin(Main         Servers).
      * Global Accelerator is a regional service and managed with respective to the Oregon region.
+## Implementation - Creating a Global Accelerator
