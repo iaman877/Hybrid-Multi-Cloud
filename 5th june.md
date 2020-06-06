@@ -26,3 +26,7 @@ AWS Global Accelerator is a service that improves the availability and performan
       * For live stremming  the only way is to connect directly to the origin to update with the content frequently.
       * But this brings up two major problems:
            * Latency :- Because from anywhere in the world we want to connect to origin it draws lots of n/w packets.
+
+- [x] For this AWS Launched a New service called Global Accelerator:
+     *  By using this service we can use the private network of aws that are used by there edge locations which are very fast,consistent and reliable too ,to access the content from the origin(Main         Servers).
+     * Global Accelerator is a regional service and managed with respective to the Oregon region.
