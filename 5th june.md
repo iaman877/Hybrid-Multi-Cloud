@@ -16,3 +16,6 @@ Day6 - Hybrid Multi Cloud 05-06-2020
           go to dashbord
              >volume->actions->create snapshot ->actions->create image.
 ```
+- [x] Now we can use this image to create an instance *without a keypair* so that no one can hack my system, and we can also remove ssh rule because we are not going to manage ,we only use the services of it.Which instead makes our server most secured.
+* If we want so we can copy this image to our desired region also.So there also we can launch our web servers.
+* If we want to make avail our image to the public then we make the visibility of the image to public.
