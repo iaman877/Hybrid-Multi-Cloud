@@ -11,3 +11,8 @@ Day6 - Hybrid Multi Cloud 05-06-2020
            1.  first configure the webserver.
            2.  Now the hard disk on which our webserver is running contains every data of that server.
            3.  So we must create a clone(or snapshot) of that hard disk and we wil make a AMI out of it.
+#### We will go through method
+ ```
+          go to dashbord
+             >volume->actions->create snapshot ->actions->create image.
+```
