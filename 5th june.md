@@ -19,3 +19,10 @@ Day6 - Hybrid Multi Cloud 05-06-2020
 - [x] Now we can use this image to create an instance *without a keypair* so that no one can hack my system, and we can also remove ssh rule because we are not going to manage ,we only use the services of it.Which instead makes our server most secured.
 * If we want so we can copy this image to our desired region also.So there also we can launch our web servers.
 * If we want to make avail our image to the public then we make the visibility of the image to public.
+
+## Global Accelerator:
+AWS Global Accelerator is a service that improves the availability and performance of your applications with local or global users. It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, such as your Application Load Balancers, Network Load Balancers or Amazon EC2 instances.
+
+      * For live stremming  the only way is to connect directly to the origin to update with the content frequently.
+      * But this brings up two major problems:
+           * Latency :- Because from anywhere in the world we want to connect to origin it draws lots of n/w packets.
