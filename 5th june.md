@@ -32,9 +32,9 @@ AWS Global Accelerator is a service that improves the availability and performan
      * Global Accelerator is a regional service and managed with respective to the Oregon region.
 ## Implementation - Creating a Global Accelerator
  Creating a Global Accelerator
-    * GlobalAccelerator->Create accelerator ->name->tag
-     * Listeners: The program that we are going to run or access using GA is known as listener.Every Listener has a   port number ex: Http run on port 80 (TCP).
-     * Add endpoints groups: 
-    * Add endpoint :   Ec2 instance->instanceid->weight:128
-    * Finally,create accelerator
+* GlobalAccelerator->Create accelerator ->name->tag
+* Listeners: The program that we are going to run or access using GA is known as listener.Every Listener has a   port number ex: Http run on port 80 (TCP).
+* Add endpoints groups
+* Add endpoint :  Ec2 instance->instanceid->weight:128
+* Finally,create accelerator
 Now we get an unique url from GlobalAccelerator which will manage fault tolernce also.
