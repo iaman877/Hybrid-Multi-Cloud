@@ -21,3 +21,5 @@
  ii) Format - mkfs.ext4 /dev/xvdf1
  iii) Mount - mkdir /web , mount /dev/xvdf /web1
 ```
+### Note 
+We cannot Connect Volume to Docker OS directly , Firstly we connect volume(pendrive) to Base OS and then attach it to OS running on base OS.
