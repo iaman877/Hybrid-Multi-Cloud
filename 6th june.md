@@ -25,3 +25,8 @@
 We cannot Connect Volume to Docker OS directly , Firstly we connect volume(pendrive) to Base OS and then attach it to OS running on base OS.
 
 - [x] Incremental backup - Also known as point in time backup. The first backup performed is of complete data and all subsequent backups include only the data which has been modified (delta). Snapshot backup on AWS is incremental backup. Snapshots are stored internally on S3 storage. 
+
+```
+Steps: EC2 dashboard - Volumes > select desired volume - Actions > Create snapshot - add description and tag - Create Snapshot
+```
+
