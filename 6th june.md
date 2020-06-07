@@ -29,4 +29,27 @@ We cannot Connect Volume to Docker OS directly , Firstly we connect volume(pendr
 ```
 Steps: EC2 dashboard - Volumes > select desired volume - Actions > Create snapshot - add description and tag - Create Snapshot
 ```
+Commands - Linux and Docker
+```
+* sudo su - root : to login as root
+* yum install docker : to install docker
+* service docker start : to start docker ( used instead of “systemctl start docker” on Amazon linux)
+* chkconfig docker on : enables docker to run on startup ( used instead of “systemctl enable docker” on Amazon linux)
+* service docker status : check docker status. Same can be used to check status of any program
+* docker ps : list containers
+* docker image : list images
+* docker pull <image name> : pull docker image from docker hub
+* docker run -dit —name <name> <image name> : create container using docker image
+* docker inspect <container name>: get container information like IP address
+* curl <website> : to access website on linux server
+* docker run -dit —name <name> -p <port no>:<redirect port no>  <image name> : Used for port address translation setup ( redirection). This process is known as exposing the container.
+* history : get log of all commands executed on the server during the session.
+* docker rm -f <container name> : to remove the container
+* docker exec -it <container name> bash : to connect inside the container using command line
+* fdisk -l <disk name> : to create a partiftion
+* mkfs.ext4  <disk name> : formatting the disk in ext4 format
+* mount <partition/drive> <directory path>
+* docker run -dit —name <name> -p <port no>:<redirect port no> -v <host directory>:<docker directory> <image name> : mount binding. Link a directory on host OS to a directory on docker container
+```
+
 
