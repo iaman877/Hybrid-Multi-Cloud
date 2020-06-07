@@ -15,4 +15,9 @@
      - We have mount to this folder(Drive) to the conatiner while launching only,using below cmd: docker run -dit --name web -p 81:80 -V /driverfolder: /var/www/html image_name.
      - Thus using mount-binding we can make our data in our container consistent.
 -[x] docker run -dit osname -p 81:80 imagename here , p means PAT ( port address Translation ) here 81:80 means , anyone can access it by providing port no. alongside ip ie. 12.25.135.42:81 We can allow this by go to Inbound rule in Security Group  Using Custom TCP , allow port no 81 and give access to everyone means anyone.
-
+## In Order to Attach Volume to OS , we have to do 3 things .
+```
+ i) Partition - fdisk -l /dev/xvdf
+ ii) Format - mkfs.ext4 /dev/xvdf1
+ iii) Mount - mkdir /web , mount /dev/xvdf /web1
+```
