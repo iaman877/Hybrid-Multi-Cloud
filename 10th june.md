@@ -7,3 +7,5 @@ Day8 - Hybrid Multi Cloud 09-06-2020
         for different services in different clouds some services might be cheap in one cloud ,some might be faster.
 * while we are going for multi-cloud we cant spend our  money and time to learn all the clouds .so we require a standard tool       that can manage all clouds. The such standard tool we have now is Terraform.
 * Terraform: Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. Configuration files describe to Terraform the components      needed to run a single application or your entire datacenter.
+- [x] Terraform Usecases:    
+- So,Whenever we wanted to launch the same environment with just a single click wee run our code and create Terraform provide         such IAC service which is also useful to destroy everything in the infrastructure we created with a single click.
