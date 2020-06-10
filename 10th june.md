@@ -10,3 +10,4 @@ Day8 - Hybrid Multi Cloud 09-06-2020
 - [x] Terraform realtime Usecases:    
 - So,Whenever we wanted to launch the same environment with just a single click wee run our code and create Terraform provide         such IAC service which is also useful to destroy everything in the infrastructure we created with a single click.
  - Terraform records everything that is it remembers all the things we have done when created. This records are stored in a *statefile*,
+ - Terraform by default doesn't know about anything but some plugins make it to do so
