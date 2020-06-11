@@ -21,5 +21,7 @@ there are many uses of log
 # echo $x           {it will  output}
 # cat message   {message directory is contain all basic and general log }
 # vim /etc/httpd/conf/httpd.conf     {open web configuration file }
+-> change port number 80 to 85
+# getenforce     {it will change the port }
 
 ```
