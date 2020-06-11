@@ -1,5 +1,7 @@
 
 # Cloud computing
+![day 1](https://user-images.githubusercontent.com/49730521/84362878-8bd6dd00-abeb-11ea-9ea6-0a40fdb6af98.jpeg)
+
 * What is cloud computing that is getting the computing unit mainly the ram and cpu
 * rather than we go to risk, we can outsource infrastructure > IAAS > Infrastructure As A Service
 * What is  the concept of PAY - AS - YOU - GO with the IAAS (infrastructure as service) that we will use other company or service * providers for fulfilling our physical needs to satisfy the budget for a new company.
