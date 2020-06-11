@@ -25,5 +25,5 @@ there are many uses of log
 # getenforce     {it will change the port }
 # systemctl restart httpd   {output : it shows error, you can check this error by cat message command }
 # systemctl  0     {it will stop the service
-
+#  systemctl restart httpd 
 ```
