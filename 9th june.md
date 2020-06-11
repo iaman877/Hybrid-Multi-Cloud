@@ -1,6 +1,9 @@
 Day8 - Hybrid Multi Cloud 09-06-2020
 #  Topic : Differences between public and private cloud | Need of terraform 
 
+![terraform introduction](https://user-images.githubusercontent.com/49730521/84361370-30a3eb00-abe9-11ea-9254-2d1e52063f5c.png)
+
+
 * In order to utilize current techinal world  services we need  API(Application Programming Interface) that runs behind:
     1)WebUi   2)Mobileapps  3)CLI   4)SDK.
 * But now-a-days the world turned to multicloud(Using more than one cloud) ,why because of the different specifications 
