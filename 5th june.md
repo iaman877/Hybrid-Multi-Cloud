@@ -1,5 +1,6 @@
 Day6 - Hybrid Multi Cloud 05-06-2020
-# Topic covered :-  limitations of CloudFront | Use case of Global Accelarator
+# Topic covered :-  limitations of CloudFront |  Global Accelarator
+![Global Accelator](https://user-images.githubusercontent.com/49730521/84362081-4a91fd80-abea-11ea-800a-14ca4edaa124.png)
 
 - [x]  CDNaaS  is provided by  CloudFront in AWS &  poppy in  openstack
 - [x] when we use CloudFront to decrease the tenancy by default it created local copy(cache), means data is old and not updated. 
