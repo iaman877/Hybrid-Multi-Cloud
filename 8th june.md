@@ -23,5 +23,7 @@ there are many uses of log
 # vim /etc/httpd/conf/httpd.conf     {open web configuration file }
 -> change port number 80 to 85
 # getenforce     {it will change the port }
+# systemctl restart httpd   {output : it shows error, you can check this error by cat message command }
+# systemctl  0     {it will stop the service
 
 ```
