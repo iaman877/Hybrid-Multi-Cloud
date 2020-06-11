@@ -19,5 +19,7 @@ there are many uses of log
 # cat access _log | grep " faild password for root"   {It will only show failed access}
 # x = $(cat secure _log | grep " faild password for root" | wc - 1)
 # echo $x           {it will  output}
+# cat message   {message directory is contain all basic and general log }
+# vim /etc/httpd/conf/httpd.conf     {open web configuration file }
 
 ```
