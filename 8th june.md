@@ -13,4 +13,6 @@ there are many uses of log
 # cat acess_log {it will show all the web services which have logged}
 # tail -5 access_log  {it will only show last 5 lines of log}
 # tail -f access_log  { it will only real time login success attempt}
+# cat access _log | grep "server-status"     {syntax : grep "String" }
+# cat access_log | cut -d " "-f     {cut will remove all the column after delimiter && -f is used as retriving the field}
 ```
