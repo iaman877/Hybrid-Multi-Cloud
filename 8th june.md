@@ -15,4 +15,7 @@ there are many uses of log
 # tail -f access_log  { it will only real time login success attempt}
 # cat access _log | grep "server-status"     {syntax : grep "String" }
 # cat access_log | cut -d " "-f     {cut will remove all the column after delimiter && -f is used as retriving the field}
+# cat access_log | cut -d " "-f | uniq    {it will only show unique fields}
+# cat access _log | grep " faild password for root"   {It will only show failed access}
+
 ```
