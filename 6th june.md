@@ -1,4 +1,8 @@
 # Topic :- Deploy your application/web page in docker (privately) | access web page outside | Snapshots helps in backup
+
+
+![Snapshot docker](https://user-images.githubusercontent.com/49730521/84361886-f9820980-abe9-11ea-8c64-d9ce90c41fba.jpeg)
+
  Day 7 - Hybrid Multi Cloud 06-06-2020
 * For security purpose it is a good practice to launch only one  program on one OS.
 - [x] Program used to connect to server using SSH is PUTTY. 
