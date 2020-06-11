@@ -17,5 +17,7 @@ there are many uses of log
 # cat access_log | cut -d " "-f     {cut will remove all the column after delimiter && -f is used as retriving the field}
 # cat access_log | cut -d " "-f | uniq    {it will only show unique fields}
 # cat access _log | grep " faild password for root"   {It will only show failed access}
+# x = $(cat secure _log | grep " faild password for root" | wc - 1)
+# echo $x           {it will  output}
 
 ```
