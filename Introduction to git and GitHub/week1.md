@@ -19,3 +19,13 @@
  * ls
   3. Check to see which files git knows about with the git status command:
   * git status
+## Create a commit
+  Commits allow you to go back to the state of the project at any point in history.
+ 1. Run the following, filling in any email for "you@example.com":
+* git config --global user.email "you@example.com"
+
+2. Run the following, filling in any name for "Your Name":
+* git config --global user.name "Your Name"
+
+3. Run the following git commit command. Your message should relate to what's in your commit - for posterity:
+* git commit -m "<your message about the commit>"
