@@ -8,7 +8,14 @@
 ## Create a new repository
 1. Create a directory for your project with the mkdir (make directory) command:
 * mkdir myproject
-1. Then open the directory with the cd (change directory) command
+2. Then open the directory with the cd (change directory) command
 * cd myproject
-1. Now, initialize your new git repository in the folder with the git init command
+3. Now, initialize your new git repository in the folder with the git init command
 * git init
+## Add a file to the repo
+1. Add a new file to the project. You can use any text editor you like when you are working on your own projects, but for this lab, simply create a new file with the touch command. Replace <file name> with a name for your file:
+  * touch <file name>.txt
+ 2. Run the ls (list) command to verify that the file was created in your project directory:
+ * ls
+  3. Check to see which files git knows about with the git status command:
+  * git status
